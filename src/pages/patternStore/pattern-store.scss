@@ -1,0 +1,27 @@
+.pattern{
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  .scroll{
+    //display: flex;
+    background-repeat: no-repeat;
+    .patternItem{
+      display: inline-block;
+      width:44vw;
+      height: 44vw;
+      text-align: center;
+      background-position:center;
+      margin-left: 4vw;
+      .patternImg{
+        height: 44vw;
+        width:44vw;
+        text-align: center;
+        background-position:center;
+        .img{
+          width:44vw;
+          height: 44vw;
+        }
+      }
+    }
+  }
+}

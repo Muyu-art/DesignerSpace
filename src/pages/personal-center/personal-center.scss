@@ -1,0 +1,167 @@
+.center-content{
+  width:100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  .head-info{
+    width: 100vw;
+    height: 20vh;
+    background-color: #046fa6;
+    display: inline-block;
+    .get-login-icon{
+      width:60px;
+      height: 60px;
+      position: fixed;
+      display:flex;
+      margin-top: 1vh;
+      //display: inline-block;
+    }
+    .get-login-btn{
+      width:60vw;
+      height:90px;
+      border: 1px solid #35e310;
+      color: #21ad01;
+      margin-top: 8vh;
+    }
+    .head-img{
+      width:120px;
+      height:120px;
+      display: inline-block;
+      margin-left: 5vw;
+      margin-top: 6vh;
+      .head-img-info{
+        width:120px;
+        height:120px;
+        border-radius: 50%;
+      }
+    }
+    .head-name{
+      display: inline-block;
+      position: fixed;
+      width:70vw;
+      height: 5vh;
+      margin-left: 5vw;
+      font-size: 2.7vh;
+      margin-top: 6vh;
+      .head-name-font{
+        margin-top: 2.5vh;
+        color: white;
+      }
+    }
+  }
+  .personal-content{
+    width:94vw;
+    height:60vh;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    background-color: #f8f8f8;
+    border-radius: 1vh;
+
+    .my-pattern{
+      width:100%;
+      height:6vh;
+      background-color: #ffffff;
+      //border: 1px solid #7c7c7c;
+      border-radius: 1vh;
+      margin-top: 1vh;
+      background-color: white;
+      .my-pattern-font{
+        font-size: 2.3vh;
+        position: fixed;
+        margin-top: 1.2vh;
+        margin-left: 5vw;
+        color: #6b6a6a;
+        display: inline-block;
+      }
+      .my-pattern-icon{
+        width:50px;
+        height:50px;
+        display: inline-block;
+        margin-top: 1vh;
+        margin-left: 2vw;
+      }
+    }
+
+    .online-service{
+      width:100%;
+      height:6vh;
+      background-color: #ffffff;
+      //border: 1px solid #7c7c7c;
+      border-radius: 1vh;
+      margin-top: 2vh;
+      background-color: white;
+      .online-service-icon{
+        width:50px;
+        height:50px;
+        display: inline-block;
+        margin-top: 1vh;
+        margin-left: 2vw;
+      }
+      .online-service-btn{
+        width:25vw;
+        height:4vh;
+        font-size: 1.5vh;
+        position: fixed;
+        margin-top: 1vh;
+        margin-left: 60vw;
+        color: #6b6a6a;
+        display: inline-block;
+        background-color: white;
+        border: white 0px;
+      }
+    }
+
+    .feedback{
+      width:100%;
+      height:6vh;
+      background-color: #ffffff;
+      //border: 1px solid #7c7c7c;
+      border-radius: 1vh;
+      margin-top: 2vh;
+      background-color: white;
+      .feedback-icon{
+        width:50px;
+        height:50px;
+        display: inline-block;
+        margin-top: 1vh;
+        margin-left: 2vw;
+      }
+      .feedback-btn{
+        width:25vw;
+        height:4vh;
+        font-size: 1.5vh;
+        position: fixed;
+        margin-top: 1vh;
+        margin-left: 60vw;
+        color: #6b6a6a;
+        display: inline-block;
+        background-color: white;
+        border: white 0px;
+      }
+    }
+
+    .login-out{
+      width:100%;
+      height:6vh;
+      background-color: #ffffff;
+      //border: 1px solid #7c7c7c;
+      border-radius: 1vh;
+      margin-top: 1vh;
+      background-color: white;
+      .login-out-font{
+        font-size: 2.3vh;
+        position: fixed;
+        margin-top: 1.2vh;
+        margin-left: 5vw;
+        color: #6b6a6a;
+        display: inline-block;
+      }
+      .login-out-icon{
+        width:50px;
+        height:50px;
+        display: inline-block;
+        margin-top: 1vh;
+        margin-left: 2vw;
+      }
+    }
+  }
+}

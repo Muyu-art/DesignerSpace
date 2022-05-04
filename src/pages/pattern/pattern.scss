@@ -1,0 +1,33 @@
+.pattern{
+  width:100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  .block{
+    height:1vh;
+    width: 100vw;
+    background-color: #f8f8f8;
+  }
+  .pattern-list{
+    width:96vw;
+    height: 88vh;
+    margin-left: 2vw;
+    background-color: #f8f8f8;
+    border-radius: 1vh;
+    .no-pattern{
+      margin-top: 40vh;
+      text-align: center;
+      font-size: 2vh;
+      color: #6b6a6a;
+    }
+    .pattern-scroll{
+      width:94vw;
+      margin-left: 1vw;
+      height:88vh;
+      ::-webkit-scrollbar { //隐藏滚动条
+        width: 0;
+        height: 0;
+        color: transparent;
+      }
+    }
+  }
+}

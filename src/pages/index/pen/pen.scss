@@ -1,0 +1,61 @@
+.pen-panel{
+  height:95vh;
+  background-color: white;
+
+  .panel{
+    //z-index:6;
+    margin-top:2vh;
+    margin-left: 2.5vw;
+    width: 95vw;
+    height: 60vh;
+    background: -webkit-linear-gradient(top, transparent 50px, #adaaaa 51px),-webkit-linear-gradient(left, transparent 50px, #adaaaa 51px);
+    background-size: 52px 52px;
+    border: 2px solid #ef6161;
+  }
+  .pen-btn{
+    background-color: #48b8c0;
+    color: #ffffff;
+    margin-top: 20vh;
+    width:90vw;
+    margin-left: 5vw;
+  }
+  .choose-box{
+    z-index: 9;
+    position: fixed;
+    bottom: 18vh;
+    //padding-bottom: 18vh;
+    width: 100vw;
+    background-color: #f8f8f8;
+    box-shadow: #515151;
+    border-radius: 3vh;
+    padding-top: 1vh;
+    .pen-title{
+      font-size: 5vw;
+      margin-bottom: 1vh;
+      margin-left: 46vw;
+      color: #515151;
+    }
+    .color-box{
+      margin-left: 25vw;
+      margin-top: 2vh;
+      margin-bottom: 2.5vh;
+    }
+    .slider{
+      display: flex;
+      margin-left: 2vw;
+      >slider{
+        width:85vw;
+        font-color: white;
+        padding-bottom: 1.5vh;
+      }
+      >text{
+        padding-top: 1vh;
+        width:15vw;
+        color: #8a8a8a;
+        display: inline;
+        font-size: 3.5vw;
+      }
+    }
+
+  }
+}
